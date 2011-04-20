@@ -153,7 +153,7 @@ BallView::RedrawAlpha() {
 	diff[0] = (float)tmpBall->GetX()-prev[0];
 	diff[1] = (float)tmpBall->GetY()-prev[1];
 	diff[2] = (float)tmpBall->GetZ()-prev[2];
-
+/* Hide the drawing of the path of the ball
 	glBegin(GL_QUADS);
 	for ( double rad = 0.0 ; rad < 3.141592*2 ; rad += 3.141592/3 ) {
 	  glVertex3f( BALL_R/2*cos(rad), 0.0F, BALL_R/2*sin(rad) );
@@ -165,6 +165,7 @@ BallView::RedrawAlpha() {
 		      diff[1], diff[2]+BALL_R/2*sin(rad) );
 	}
 	glEnd();
+*/
       glPopMatrix();
 
       prev[0] = (float)tmpBall->GetX();
