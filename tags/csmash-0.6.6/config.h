@@ -4,22 +4,8 @@
 /* Define to enable IPv6. */
 /* #undef ENABLE_IPV6 */
 
-/* Define to 1 if translation of program messages to the user's native
-   language is requested. */
-#define ENABLE_NLS 1
-
 /* Define to 1 if you have the `bind_textdomain_codeset' function. */
 #define HAVE_BIND_TEXTDOMAIN_CODESET 1
-
-/* Define if the GNU dcgettext() function is already present or preinstalled.
-   */
-#define HAVE_DCGETTEXT 1
-
-/* Define if the GNU gettext() function is already present or preinstalled. */
-#define HAVE_GETTEXT 1
-
-/* Define if you have the iconv() function. */
-/* #undef HAVE_ICONV */
 
 /* Define to 1 if you have the <inttypes.h> header file. */
 #define HAVE_INTTYPES_H 1
@@ -113,6 +99,9 @@
 
 /* Define to the one symbol short name of this package. */
 #define PACKAGE_TARNAME "csmash"
+
+/* Define to the home page for this package. */
+/* #undef PACKAGE_URL */
 
 /* Define to the version of this package. */
 #define PACKAGE_VERSION "0.6.6"
