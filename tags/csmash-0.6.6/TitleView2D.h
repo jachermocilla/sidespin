@@ -1,4 +1,4 @@
-/* $Id: TitleView2D.h,v 1.3 2001/09/11 17:31:37 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2001  神南 吉宏(Kanna Yoshihiro)
 //

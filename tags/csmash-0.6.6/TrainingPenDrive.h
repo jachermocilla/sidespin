@@ -1,4 +1,4 @@
-/* $Id: TrainingPenDrive.h,v 1.5 2003/07/16 15:55:24 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000  神南 吉宏(Kanna Yoshihiro)
 //

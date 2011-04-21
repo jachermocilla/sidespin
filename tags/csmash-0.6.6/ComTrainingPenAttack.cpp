@@ -1,4 +1,4 @@
-/* $Id: ComTrainingPenAttack.cpp,v 1.12 2003/07/13 15:29:43 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000, 2003  神南 吉宏(Kanna Yoshihiro)
 //

@@ -1,4 +1,4 @@
-/* $Id: PlayerView.h,v 1.10 2003/02/06 14:51:53 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000, 2002, 2003  神南 吉宏(Kanna Yoshihiro)
 //

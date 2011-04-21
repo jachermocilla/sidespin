@@ -1,4 +1,4 @@
-/* $Id: TrainingSelectView.h,v 1.2 2001/01/07 17:48:38 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000  神南 吉宏(Kanna Yoshihiro)
 //

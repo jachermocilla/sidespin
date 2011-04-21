@@ -1,4 +1,4 @@
-/* $Id: PracticePlay.h,v 1.2 2001/09/19 14:03:44 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2001  神南 吉宏(Kanna Yoshihiro)
 //

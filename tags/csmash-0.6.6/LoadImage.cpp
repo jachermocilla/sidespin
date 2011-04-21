@@ -1,4 +1,4 @@
-/* $Id: LoadImage.cpp,v 1.6 2002/12/24 14:56:15 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000, 2002  神南 吉宏(Kanna Yoshihiro)
 //

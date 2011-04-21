@@ -1,4 +1,4 @@
-/* $Id: Opening.cpp,v 1.22 2003/07/29 16:48:24 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000, 2001, 2002  神南 吉宏(Kanna Yoshihiro)
 //

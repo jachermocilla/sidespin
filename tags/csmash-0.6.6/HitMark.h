@@ -1,4 +1,4 @@
-/* $Id: HitMark.h,v 1.3 2001/03/30 03:16:51 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000  神南 吉宏(Kanna Yoshihiro)
 //

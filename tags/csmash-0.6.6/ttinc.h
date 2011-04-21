@@ -1,4 +1,4 @@
-/* $Id: ttinc.h,v 1.41 2003/07/28 17:04:14 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000-2003  ¿ÀÆî µÈ¹¨(Kanna Yoshihiro)
 //

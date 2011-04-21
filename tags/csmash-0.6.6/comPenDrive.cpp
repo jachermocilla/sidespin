@@ -1,4 +1,4 @@
-/* $Id: comPenDrive.cpp,v 1.21 2003/07/25 17:28:27 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000-2003  神南 吉宏(Kanna Yoshihiro)
 //

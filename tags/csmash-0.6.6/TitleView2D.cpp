@@ -1,4 +1,4 @@
-/* $Id: TitleView2D.cpp,v 1.7 2001/12/25 15:18:05 yotsuya Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2001  神南 吉宏(Kanna Yoshihiro)
 //

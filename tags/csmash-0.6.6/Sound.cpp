@@ -1,4 +1,4 @@
-/* $Id: Sound.cpp,v 1.29 2003/08/03 10:11:56 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000-2003  ¿ÀÆî µÈ¹¨(Kanna Yoshihiro)
 //

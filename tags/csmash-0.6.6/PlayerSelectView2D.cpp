@@ -1,4 +1,4 @@
-/* $Id: PlayerSelectView2D.cpp,v 1.9 2001/12/05 15:36:47 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2001  神南 吉宏(Kanna Yoshihiro)
 //

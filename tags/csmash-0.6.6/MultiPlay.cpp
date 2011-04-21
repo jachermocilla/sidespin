@@ -1,4 +1,4 @@
-/* $Id: MultiPlay.cpp,v 1.74 2003/11/19 17:02:24 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000-2003  神南 吉宏(Kanna Yoshihiro)
 //

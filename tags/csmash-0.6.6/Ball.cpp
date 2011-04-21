@@ -1,4 +1,4 @@
-/* $Id: Ball.cpp,v 1.36 2003/11/19 16:49:14 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000-2003  神南 吉宏(Kanna Yoshihiro)
 //

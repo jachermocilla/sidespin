@@ -1,4 +1,4 @@
-/* $Id: PlayGame.cpp,v 1.19 2003/08/03 10:10:18 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000, 2002  神南 吉宏(Kanna Yoshihiro)
 //

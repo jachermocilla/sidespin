@@ -1,4 +1,4 @@
-/* $Id: NetPenDrive.cpp,v 1.3 2003/07/16 16:03:38 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2001, 2002  神南 吉宏(Kanna Yoshihiro)
 //

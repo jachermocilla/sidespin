@@ -1,4 +1,4 @@
-/* $Id: PlayerSelect.cpp,v 1.23 2003/07/19 14:25:44 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000, 2001, 2002  神南 吉宏(Kanna Yoshihiro)
 //

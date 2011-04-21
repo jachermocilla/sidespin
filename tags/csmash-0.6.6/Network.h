@@ -1,4 +1,4 @@
-/* $Id: Network.h,v 1.9 2003/01/19 15:41:00 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2001-2003  神南 吉宏(Kanna Yoshihiro)
 //

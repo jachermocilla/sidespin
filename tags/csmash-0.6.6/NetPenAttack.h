@@ -1,4 +1,4 @@
-/* $Id: NetPenAttack.h,v 1.2 2003/07/16 16:03:38 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2001  神南 吉宏(Kanna Yoshihiro)
 //

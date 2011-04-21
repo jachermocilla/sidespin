@@ -1,4 +1,4 @@
-/* $Id: BaseView.cpp,v 1.39 2003/07/13 15:27:05 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000, 2001, 2002  神南 吉宏(Kanna Yoshihiro)
 //

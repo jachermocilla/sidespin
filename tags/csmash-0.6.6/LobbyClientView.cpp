@@ -1,4 +1,4 @@
-/* $Id: LobbyClientView.cpp,v 1.13 2003/07/19 18:58:30 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2001-2003  ¿ÀÆî µÈ¹¨(Kanna Yoshihiro)
 //

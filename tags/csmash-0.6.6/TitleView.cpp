@@ -1,4 +1,4 @@
-/* $Id: TitleView.cpp,v 1.18 2003/07/28 17:00:52 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000, 2002, 2003  ¿ÀÆî µÈ¹¨(Kanna Yoshihiro)
 //

@@ -1,4 +1,4 @@
-/* $Id: FieldView.cpp,v 1.20 2002/12/24 14:56:15 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000, 2001, 2002  神南 吉宏(Kanna Yoshihiro)
 //

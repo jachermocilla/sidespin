@@ -1,4 +1,4 @@
-/* $Id: BallView2D.cpp,v 1.10 2002/11/04 14:01:24 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2001  神南 吉宏(Kanna Yoshihiro)
 //

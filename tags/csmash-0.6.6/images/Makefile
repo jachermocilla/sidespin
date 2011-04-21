@@ -46,9 +46,9 @@ AUTOMAKE = automake-1.7
 AWK = gawk
 CC = gcc
 CCDEPMODE = depmode=gcc3
-CFLAGS = -I  -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12  
+CFLAGS = -I  -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT -pthread -D_REENTRANT -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/directfb -I/usr/include/libpng12  
 CPP = gcc -E
-CPPFLAGS =  -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12  
+CPPFLAGS =  -pthread -D_REENTRANT -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/directfb -I/usr/include/libpng12  
 CXX = g++
 CXXDEPMODE = depmode=gcc3
 CXXFLAGS = -I  -Wall -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT
@@ -61,16 +61,16 @@ ECHO_T =
 EGREP = grep -E
 EXEEXT = 
 GREP = @GREP@
-GTK_CFLAGS = -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12  
-GTK_LIBS = -pthread -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lm -lcairo -lpng12 -lpango-1.0 -lfreetype -lfontconfig -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -lrt -lglib-2.0  
-GZIP = /usr/bin/gzip
+GTK_CFLAGS = -pthread -D_REENTRANT -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/directfb -I/usr/include/libpng12  
+GTK_LIBS = -pthread -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lgdk_pixbuf-2.0 -lm -lpangocairo-1.0 -lcairo -lpango-1.0 -lfreetype -lfontconfig -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -lrt -lglib-2.0  
+GZIP = /bin/gzip
 INSTALL_DATA = ${INSTALL} -m 644
 INSTALL_PROGRAM = ${INSTALL}
 INSTALL_SCRIPT = ${INSTALL}
 INSTALL_STRIP_PROGRAM = ${SHELL} $(install_sh) -c -s
 LDFLAGS = -L/usr/local/lib -L -L${exec_prefix}/lib
 LIBOBJS = 
-LIBS = -lSDL_image -lSDL_mixer -lz -lGLU -lGL -lm -lXi -lXext -lX11 -lICE -lXt  -lSDL -lpthread -pthread -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lm -lcairo -lpng12 -lpango-1.0 -lfreetype -lfontconfig -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -lrt -lglib-2.0  
+LIBS = -lSDL_image -lSDL_mixer -lz -lGLU -lGL -lm -lXi -lXext -lX11 -lICE -lXt  -L/usr/lib -lSDL -pthread -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lgdk_pixbuf-2.0 -lm -lpangocairo-1.0 -lcairo -lpango-1.0 -lfreetype -lfontconfig -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -lrt -lglib-2.0  
 LTLIBOBJS = 
 MAKEINFO = makeinfo
 MKDIR_P = @MKDIR_P@
@@ -87,9 +87,9 @@ PKGDATA = .gz
 PKG_CONFIG = /usr/bin/pkg-config
 SDL_CFLAGS = -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT
 SDL_CONFIG = /usr/bin/sdl-config
-SDL_LIBS = -lSDL -lpthread
+SDL_LIBS = -L/usr/lib -lSDL
 SET_MAKE = 
-SHELL = /bin/sh
+SHELL = /bin/bash
 STRIP = 
 VERSION = 0.6.6
 XMKMF = @XMKMF@
@@ -362,10 +362,10 @@ uninstall-am: uninstall-info-am uninstall-pkgdataDATA
 
 
 %.ppm.gz: %.ppm
-	/usr/bin/gzip -c $< > $<.gz
+	/bin/gzip -c $< > $<.gz
 
 %.pbm.gz: %.pbm
-	/usr/bin/gzip -c $< > $<.gz
+	/bin/gzip -c $< > $<.gz
 # Tell versions [3.59,3.63) of GNU make to not export all variables.
 # Otherwise a system limit (for SysV at least) may be exceeded.
 .NOEXPORT:
