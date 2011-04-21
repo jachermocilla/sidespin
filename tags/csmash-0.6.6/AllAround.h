@@ -49,6 +49,7 @@ protected:
 
 private:
   bool SwingType( Ball *ball, long spin );
+  bool SwingType( int type, long spin, double power );
 };
 
 #endif // _AllAround_

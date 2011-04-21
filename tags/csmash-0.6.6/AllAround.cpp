@@ -109,7 +109,8 @@ AllAround::Swing( long spin ) {
   else
     m_swingSide = true;
 
-  SwingType( tmpBall, spin );
+  //SwingType( tmpBall, spin );
+  SwingType( SWING_CUT, -1.1, 2.0 );
 
   delete tmpBall;
 
@@ -168,7 +169,8 @@ AllAround::StartSwing( long spin ) {
       else
 	m_swingSide = true;
 
-      SwingType( tmpBall, spin );
+      //SwingType( tmpBall, spin );
+      SwingType( SWING_CUT, -1.1, 2.0 );
     }
 
     delete tmpBall;
@@ -251,6 +253,13 @@ AllAround::HitBall() {
   }
 
   return true;
+}
+
+bool
+AllAround::SwingType(int type, long spin, double power) {
+  m_spin=spin;
+  m_pow=power;
+  m_swingType=type;
 }
 
 bool
