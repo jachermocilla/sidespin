@@ -53,8 +53,8 @@ Player.o: Player.cpp ttinc.h config.h /usr/include/unistd.h \
  /usr/include/zlib.h /usr/include/zconf.h /usr/include/zlibdefs.h \
  Player.h PlayerView.h View.h PlayerView2D.h Ball.h BallView.h \
  BallView2D.h BaseView.h FieldView.h Control.h Event.h PenAttack.h \
- PenDrive.h ShakeCut.h comPenAttack.h comPlayer.h comPenDrive.h \
- comShakeCut.h TrainingPenAttack.h TrainingPenDrive.h \
+ PenDrive.h ShakeCut.h AllAround.h comPenAttack.h comPlayer.h \
+ comPenDrive.h comShakeCut.h TrainingPenAttack.h TrainingPenDrive.h \
  ComTrainingPenAttack.h ComTrainingPenDrive.h HitMark.h PlayGame.h \
  PlayGameView.h Network.h RCFile.h Logging.h
 
@@ -317,6 +317,8 @@ PenAttack.h:
 PenDrive.h:
 
 ShakeCut.h:
+
+AllAround.h:
 
 comPenAttack.h:
 

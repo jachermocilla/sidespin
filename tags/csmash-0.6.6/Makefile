@@ -167,7 +167,7 @@ csmash_SOURCES = main.cpp Launcher.cpp LobbyClient.cpp Ball.cpp Event.cpp \
 		FieldView2D.cpp PlayerView2D.cpp BallView2D.cpp \
 		PlayerSelectView2D.cpp TitleView2D.cpp MenuItemView2D.cpp \
 		RCFile.cpp loadparts.cpp LobbyClientView.cpp LauncherView.cpp \
-		MultiPlayerSelect.cpp AllAround.c ttinc.cpp \
+		MultiPlayerSelect.cpp AllAround.cpp ttinc.cpp \
 		ttinc.h Launcher.h LobbyClient.h Ball.h Event.h Control.h \
 		View.h BaseView.h FieldView.h BallView.h Player.h comPlayer.h \
 		parts.h PlayerView.h HitMark.h PenAttack.h ShakeCut.h \
@@ -226,7 +226,7 @@ am_csmash_OBJECTS = main.$(OBJEXT) Launcher.$(OBJEXT) \
 	PlayerSelectView2D.$(OBJEXT) TitleView2D.$(OBJEXT) \
 	MenuItemView2D.$(OBJEXT) RCFile.$(OBJEXT) loadparts.$(OBJEXT) \
 	LobbyClientView.$(OBJEXT) LauncherView.$(OBJEXT) \
-	MultiPlayerSelect.$(OBJEXT) ttinc.$(OBJEXT)
+	MultiPlayerSelect.$(OBJEXT) AllAround.$(OBJEXT) ttinc.$(OBJEXT)
 csmash_OBJECTS = $(am_csmash_OBJECTS)
 csmash_LDADD = $(LDADD)
 csmash_DEPENDENCIES =

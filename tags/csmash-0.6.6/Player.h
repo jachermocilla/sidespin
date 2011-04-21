@@ -26,6 +26,7 @@
 #define PLAYER_PENATTACK	1	// Pen Attack
 #define PLAYER_SHAKECUT		2	// Cut
 #define PLAYER_PENDRIVE		3	// Pen Drive
+#define PLAYER_ALLAROUND	4	// Pen Drive
 
 
 // m_swingType
