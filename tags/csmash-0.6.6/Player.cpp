@@ -672,10 +672,9 @@ const char keytable[][5] = {
 
 
   switch ( code ) {
-  case '1':  case 'q':  case 'a':  case 'z':
-  case '2':  case 'w':  case 's':  case 'x':
-  case '3':
-    m_targetX = -TABLEWIDTH/2*0.9*GetSide();
+  case 'q':  case 'a':  case 'z':
+  case 'w':  case 's':  case 'x':
+  m_targetX = -TABLEWIDTH/2*0.9*GetSide();
     break;
   case 'e':
     m_targetX = -TABLEWIDTH/2*0.75*GetSide();
@@ -683,7 +682,7 @@ const char keytable[][5] = {
   case 'd':
     m_targetX = -TABLEWIDTH/2*0.6*GetSide();
     break;
-  case '4':  case 'c':
+  case 'c':
     m_targetX = -TABLEWIDTH/2*0.45*GetSide();
     break;
   case 'r':
@@ -692,7 +691,7 @@ const char keytable[][5] = {
   case 'f':
     m_targetX = -TABLEWIDTH/2*0.15*GetSide();
     break;
-  case '5':  case 'v':
+  case 'v':
     m_targetX = 0;
     break;
   case 't':
@@ -701,7 +700,7 @@ const char keytable[][5] = {
   case 'g':
     m_targetX = TABLEWIDTH/2*0.3*GetSide();
     break;
-  case '6':  case 'b':
+  case 'b':
     m_targetX = TABLEWIDTH/2*0.45*GetSide();
     break;
   case 'y':
@@ -710,17 +709,16 @@ const char keytable[][5] = {
   case 'h':
     m_targetX = TABLEWIDTH/2*0.75*GetSide();
     break;
-  case '7':  case 'n':  case 'u':  case 'j':
-  case '8':  case 'm':  case 'i':  case 'k':
-  case '9':  case ',':  case 'o':  case 'l':
-  case '0':  case '.':  case 'p':  case ';':
+  case 'n':  case 'u':  case 'j':
+  case 'm':  case 'i':  case 'k':
+  case ',':  case 'o':  case 'l':
+  case '.':  case 'p':  case ';':
     m_targetX = TABLEWIDTH/2*0.9*GetSide();
     break;
   }
 
   switch ( code ){
-  case '1':  case '2':  case '3':  case '4':  case '5':  case '6':
-  case '7':  case '8':  case '9':  case '0':  case '-':  case '^':
+  case '-':  case '^':
     m_targetY = TABLELENGTH/12*5*GetSide();
     break;
   case 'q':  case 'w':  case 'e':  case 'r':  case 't':  case 'y':
@@ -736,6 +734,23 @@ const char keytable[][5] = {
     m_targetY = TABLELENGTH/12*2*GetSide();
     break;
   }
+
+//  if (m_playerType==PLAYER_ALLAROUND){
+    switch ( code ) {
+  case '1': m_spin = -1.0; printf("Spin:%f\n",theBall.GetSpin());break;
+  case '2': m_spin = 1.0; printf("Spin:%f\n",theBall.GetSpin());break;
+  case '3': m_swingType = SWING_CUT; break;
+  case '4': m_swingType = SWING_POKE; break;
+  case '5': m_swingType = SWING_NORMAL; break;
+  case '6': m_swingType = SWING_DRIVE; break;
+  case '7': m_swingType = SWING_SMASH; break;
+    }
+//  }
+
+
+
+
+
 
 
   if ( (Histptr == 0 &&

@@ -110,7 +110,7 @@ AllAround::Swing( long spin ) {
     m_swingSide = true;
 
   //SwingType( tmpBall, spin );
-  SwingType( SWING_CUT, -1.1, 2.0 );
+  //SwingType( SWING_CUT, -1.1, 2.0 );
 
   delete tmpBall;
 
@@ -170,7 +170,7 @@ AllAround::StartSwing( long spin ) {
 	m_swingSide = true;
 
       //SwingType( tmpBall, spin );
-      SwingType( SWING_CUT, -1.1, 2.0 );
+//      SwingType( SWING_CUT, -1.1, 2.0 );
     }
 
     delete tmpBall;
