@@ -1,4 +1,4 @@
-/* $Id: Player.h,v 1.21 2003/07/16 16:11:14 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000, 2001, 2002  神南 吉宏(Kanna Yoshihiro)
 //

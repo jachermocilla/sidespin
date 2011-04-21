@@ -1,4 +1,4 @@
-/* $Id: Launcher.h,v 1.6 2002/09/07 05:35:12 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2001, 2002  神南 吉宏(Kanna Yoshihiro)
 //

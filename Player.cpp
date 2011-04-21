@@ -1,4 +1,4 @@
-/* $Id: Player.cpp,v 1.55 2003/11/19 16:49:31 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000-2003  ¿ÀÆî µÈ¹¨(Kanna Yoshihiro)
 //

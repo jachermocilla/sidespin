@@ -1,4 +1,4 @@
-/* $Id: BallView.h,v 1.8 2003/07/13 15:26:24 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000, 2002, 2003  神南 吉宏(Kanna Yoshihiro)
 //

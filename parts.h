@@ -1,6 +1,6 @@
 /***********************************************************************
  *	d:/Werk/src/csmash-0.3.8.new/conv/parts.h
- *	$Id: parts.h,v 1.16 2003/07/28 17:03:10 nan Exp $
+ *	$Id$
  *
  *	Copyright by ESESoft.
  *

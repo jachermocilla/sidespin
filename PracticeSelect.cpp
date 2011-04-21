@@ -1,4 +1,4 @@
-/* $Id: PracticeSelect.cpp,v 1.6 2003/07/16 16:13:32 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2001, 2002  神南 吉宏(Kanna Yoshihiro)
 //

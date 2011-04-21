@@ -1,6 +1,6 @@
 /***********************************************************************
  *	d:/Werk/src/csmash-0.4.0/xerror.cpp
- *	$Id: xerror.cpp,v 1.5 2002/11/10 15:11:48 nan Exp $
+ *	$Id$
  *
  *	Copyright by ESESoft.
  *

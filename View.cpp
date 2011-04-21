@@ -1,4 +1,4 @@
-/* $Id: View.cpp,v 1.4 2002/09/07 04:41:32 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000, 2002  神南 吉宏(Kanna Yoshihiro)
 //

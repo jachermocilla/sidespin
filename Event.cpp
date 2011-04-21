@@ -1,4 +1,4 @@
-/* $Id: Event.cpp,v 1.84 2003/11/19 17:26:58 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000-2003  ¿ÀÆî µÈ¹¨(Kanna Yoshihiro)
 //

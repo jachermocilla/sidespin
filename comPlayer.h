@@ -1,4 +1,4 @@
-/* $Id: comPlayer.h,v 1.7 2001/12/05 15:39:25 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000  神南 吉宏(Kanna Yoshihiro)
 //

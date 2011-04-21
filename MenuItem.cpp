@@ -1,4 +1,4 @@
-/* $Id: MenuItem.cpp,v 1.6 2002/09/07 05:06:29 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000, 2001, 2002  神南 吉宏(Kanna Yoshihiro)
 //

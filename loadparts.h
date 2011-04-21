@@ -1,6 +1,6 @@
 /***********************************************************************
  *	z:/wata/src/a/csmash/loadparts.h
- *	$Id: loadparts.h,v 1.7 2002/03/05 14:21:21 yotsuya Exp $
+ *	$Id$
  *
  *	Copyright by ESESoft.
  *

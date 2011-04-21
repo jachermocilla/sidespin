@@ -1,4 +1,4 @@
-/* $Id: Title.cpp,v 1.28 2003/07/28 16:59:51 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000-2003  ¿ÀÆî µÈ¹¨(Kanna Yoshihiro)
 //

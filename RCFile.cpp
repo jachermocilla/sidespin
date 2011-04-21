@@ -1,4 +1,4 @@
-/* $Id: RCFile.cpp,v 1.13 2003/07/28 16:55:04 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2001, 2003  ¿ÀÆî µÈ¹¨(Kanna Yoshihiro)
 //

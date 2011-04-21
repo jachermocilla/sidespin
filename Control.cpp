@@ -1,4 +1,4 @@
-/* $Id: Control.cpp,v 1.4 2002/11/04 14:13:18 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000, 2002  神南 吉宏(Kanna Yoshihiro)
 //

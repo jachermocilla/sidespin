@@ -1,4 +1,4 @@
-/* $Id: MenuItemView.h,v 1.3 2002/02/02 21:22:02 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000, 2001, 2002  神南 吉宏(Kanna Yoshihiro)
 //

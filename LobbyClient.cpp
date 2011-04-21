@@ -1,4 +1,4 @@
-/* $Id: LobbyClient.cpp,v 1.41 2003/08/03 10:09:27 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2001-2003  ¿ÀÆî µÈ¹¨(Kanna Yoshihiro)
 //

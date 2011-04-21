@@ -1,4 +1,4 @@
-/* $Id: Logging.cpp,v 1.12 2003/08/17 11:09:23 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2001, 2002, 2003  ¿ÀÆî µÈ¹¨(Kanna Yoshihiro)
 //

@@ -1,4 +1,4 @@
-/* $Id: LauncherView.h,v 1.3 2003/07/19 18:33:31 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2001  神南 吉宏(Kanna Yoshihiro)
 //

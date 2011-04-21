@@ -1,4 +1,4 @@
-/* $Id: comShakeCut.h,v 1.7 2003/07/16 15:53:12 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000  神南 吉宏(Kanna Yoshihiro)
 //

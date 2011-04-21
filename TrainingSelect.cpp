@@ -1,4 +1,4 @@
-/* $Id: TrainingSelect.cpp,v 1.14 2003/07/16 15:55:24 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000, 2001, 2002  神南 吉宏(Kanna Yoshihiro)
 //

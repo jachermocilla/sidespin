@@ -1,4 +1,4 @@
-/* $Id: LauncherView.cpp,v 1.12 2003/07/29 17:14:30 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2001, 2002, 2003  ¿ÀÆî µÈ¹¨(Kanna Yoshihiro)
 //

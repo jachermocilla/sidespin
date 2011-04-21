@@ -1,4 +1,4 @@
-/* $Id: PracticeSelectView.h,v 1.1 2001/09/06 17:23:43 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2001  神南 吉宏(Kanna Yoshihiro)
 //

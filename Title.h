@@ -1,4 +1,4 @@
-/* $Id: Title.h,v 1.11 2003/07/16 15:58:17 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000, 2001  神南 吉宏(Kanna Yoshihiro)
 //

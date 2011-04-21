@@ -1,4 +1,4 @@
-/* $Id: MultiPlayerSelect.h,v 1.4 2003/08/17 11:17:10 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2003  神南 吉宏(Kanna Yoshihiro)
 //

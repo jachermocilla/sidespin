@@ -1,4 +1,4 @@
-/* $Id: LobbyClientView.h,v 1.10 2003/07/13 04:39:35 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2001-2003  神南 吉宏(Kanna Yoshihiro)
 //

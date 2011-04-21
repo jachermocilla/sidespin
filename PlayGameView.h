@@ -1,4 +1,4 @@
-/* $Id: PlayGameView.h,v 1.2 2002/02/02 21:23:46 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2001, 2002  神南 吉宏(Kanna Yoshihiro)
 //

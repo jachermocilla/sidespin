@@ -1,4 +1,4 @@
-/* $Id: Logging.h,v 1.5 2003/01/15 14:10:28 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2001, 2002, 2003  神南 吉宏(Kanna Yoshihiro)
 //

@@ -1,4 +1,4 @@
-/* $Id: Opening.h,v 1.6 2003/07/16 16:07:40 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000, 2001  神南 吉宏(Kanna Yoshihiro)
 //

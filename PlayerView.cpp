@@ -1,4 +1,4 @@
-/* $Id: PlayerView.cpp,v 1.36 2003/07/28 16:57:35 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000-2003  ¿ÀÆî µÈ¹¨(Kanna Yoshihiro)
 //

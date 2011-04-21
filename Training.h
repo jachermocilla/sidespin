@@ -1,4 +1,4 @@
-/* $Id: Training.h,v 1.6 2003/07/16 15:55:24 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000, 2001  神南 吉宏(Kanna Yoshihiro)
 //

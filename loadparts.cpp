@@ -1,6 +1,6 @@
 /***********************************************************************
  *	z:/wata/src/a/csmash/loadparts.cpp
- *	$Id: loadparts.cpp,v 1.14 2003/11/19 16:49:31 nan Exp $
+ *	$Id$
  *
  *	Copyright by ESESoft.
  *

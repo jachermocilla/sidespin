@@ -1,4 +1,4 @@
-/* $Id: MenuItemView.cpp,v 1.8 2002/02/15 14:14:35 yotsuya Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000, 2001, 2002  ¿ÀÆî µÈ¹¨(Kanna Yoshihiro)
 //

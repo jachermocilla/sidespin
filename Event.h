@@ -1,4 +1,4 @@
-/* $Id: Event.h,v 1.27 2003/07/16 16:03:38 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000-2003  神南 吉宏(Kanna Yoshihiro)
 //

@@ -1,4 +1,4 @@
-/* $Id: HowtoView.cpp,v 1.23 2002/12/24 17:07:04 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000, 2002  神南 吉宏(Kanna Yoshihiro)
 //

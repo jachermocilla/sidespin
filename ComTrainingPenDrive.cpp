@@ -1,4 +1,4 @@
-/* $Id: ComTrainingPenDrive.cpp,v 1.11 2002/11/04 14:03:47 nan Exp $ */
+/* $Id$ */
 
 // Copyright (C) 2000  神南 吉宏(Kanna Yoshihiro)
 //
