@@ -30,12 +30,12 @@ extern Ball   theBall;
 
 extern long mode;
 
-AllAround::AllAroundCut() {
-  m_playerType = PLAYER_SHAKECUT;
+AllAround::AllAround() {
+  m_playerType = PLAYER_ALLAROUND;
 }
 
 AllAround::AllAround(long side) : Player(side) {
-  m_playerType = PLAYER_SHAKECUT;
+  m_playerType = PLAYER_ALLAROUND;
 }
 
 AllAround::AllAround( long playerType, long side, double x, double y, double z,

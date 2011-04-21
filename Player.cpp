@@ -25,6 +25,7 @@
 #include "PenAttack.h"
 #include "PenDrive.h"
 #include "ShakeCut.h"
+#include "AllAround.h"
 #include "comPenAttack.h"
 #include "comPenDrive.h"
 #include "comShakeCut.h"
@@ -230,7 +231,8 @@ Player::Create( long player, long side, long type ) {
     case 0:
       return new PenAttack(side);
     case 1:
-      return new ShakeCut(side);
+      //return new ShakeCut(side);
+      return new AllAround(side);
     case 2:
       return new PenDrive(side);
     }

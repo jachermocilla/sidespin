@@ -30,7 +30,7 @@ public:
 	    double targetX, double targetY, double eyeX, double eyeY,
 	    double eyeZ, long pow, double spin, double stamina,
 	    long statusMax );
-  virtual ~AllAroundCut();
+  virtual ~AllAround();
 
   virtual bool AddStatus( long diff );
 
