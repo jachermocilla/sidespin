@@ -17,7 +17,7 @@
 // Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 #include "ttinc.h"
-#include "ShakeCut.h"
+#include "AllAround.h"
 #include "Ball.h"
 #include "Event.h"
 #include "Network.h"
@@ -30,15 +30,15 @@ extern Ball   theBall;
 
 extern long mode;
 
-ShakeCut::ShakeCut() {
+AllAround::AllAroundCut() {
   m_playerType = PLAYER_SHAKECUT;
 }
 
-ShakeCut::ShakeCut(long side) : Player(side) {
+AllAround::AllAround(long side) : Player(side) {
   m_playerType = PLAYER_SHAKECUT;
 }
 
-ShakeCut::ShakeCut( long playerType, long side, double x, double y, double z,
+AllAround::AllAround( long playerType, long side, double x, double y, double z,
 		    double vx, double vy, double vz,long status, long swing,
 		    long swingType, bool swingSide, long afterSwing,
 		    long swingError,
@@ -50,17 +50,17 @@ ShakeCut::ShakeCut( long playerType, long side, double x, double y, double z,
 	  eyeX, eyeY, eyeZ, pow, spin, stamina, statusMax ) {
 }
 
-ShakeCut::~ShakeCut() {
+AllAround::~AllAround() {
 }
 
 bool
-ShakeCut::AddStatus( long diff ) {
+AllAround::AddStatus( long diff ) {
   // Add something in the future
   return Player::AddStatus( diff );
 }
 
 bool
-ShakeCut::Move( SDL_keysym *KeyHistory, long *MouseXHistory,
+AllAround::Move( SDL_keysym *KeyHistory, long *MouseXHistory,
 	      long *MouseYHistory, unsigned long *MouseBHistory,
 	      int Histptr ) {
   double prevVx = m_vx;
@@ -80,7 +80,7 @@ ShakeCut::Move( SDL_keysym *KeyHistory, long *MouseXHistory,
 }
 
 bool
-ShakeCut::Swing( long spin ) {
+AllAround::Swing( long spin ) {
   Ball *tmpBall;
 
   if ( theBall.GetStatus() == 6 || theBall.GetStatus() == 7 )
@@ -121,7 +121,7 @@ ShakeCut::Swing( long spin ) {
 }
 
 bool
-ShakeCut::StartSwing( long spin ) {
+AllAround::StartSwing( long spin ) {
   Ball *tmpBall;
 
   if ( m_swing > 10 )
@@ -178,7 +178,7 @@ ShakeCut::StartSwing( long spin ) {
 }
 
 bool
-ShakeCut::HitBall() {
+AllAround::HitBall() {
   double vx, vy, vz;
   double diff;
   double level;
@@ -254,7 +254,7 @@ ShakeCut::HitBall() {
 }
 
 bool
-ShakeCut::SwingType( Ball *ball, long spin ) {
+AllAround::SwingType( Ball *ball, long spin ) {
   if ( (ball->GetStatus() == 3 && m_side == 1) ||
        (ball->GetStatus() == 1 && m_side == -1) ) {
     if ( fabs(ball->GetX()) < TABLEWIDTH/2 &&
@@ -292,28 +292,16 @@ ShakeCut::SwingType( Ball *ball, long spin ) {
   return true;
 }
 
-// Target will be modified by the spin
-// (now invalid)
-#if 0
 bool
-ShakeCut::GetModifiedTarget( double &targetX, double &targetY ) {
-  targetX = m_targetX;
-  targetY = m_targetY + theBall.GetSpin()*m_side*0.2;
-
-  return true;
-}
-#else
-bool
-ShakeCut::GetModifiedTarget( double &targetX, double &targetY ) {
+AllAround::GetModifiedTarget( double &targetX, double &targetY ) {
   targetX = m_targetX;
   targetY = m_targetY;
 
   return true;
 }
-#endif
 
 void
-ShakeCut::CalcLevel( Ball *ball, double &diff, double &level, double &maxVy ) {
+AllAround::CalcLevel( Ball *ball, double &diff, double &level, double &maxVy ) {
   double targetX, targetY;
 
   GetModifiedTarget( targetX, targetY );

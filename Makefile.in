@@ -167,7 +167,7 @@ csmash_SOURCES = main.cpp Launcher.cpp LobbyClient.cpp Ball.cpp Event.cpp \
 		FieldView2D.cpp PlayerView2D.cpp BallView2D.cpp \
 		PlayerSelectView2D.cpp TitleView2D.cpp MenuItemView2D.cpp \
 		RCFile.cpp loadparts.cpp LobbyClientView.cpp LauncherView.cpp \
-		MultiPlayerSelect.cpp ttinc.cpp \
+		MultiPlayerSelect.cpp AllAround.c ttinc.cpp \
 		ttinc.h Launcher.h LobbyClient.h Ball.h Event.h Control.h \
 		View.h BaseView.h FieldView.h BallView.h Player.h comPlayer.h \
 		parts.h PlayerView.h HitMark.h PenAttack.h ShakeCut.h \
@@ -183,7 +183,8 @@ csmash_SOURCES = main.cpp Launcher.cpp LobbyClient.cpp Ball.cpp Event.cpp \
 		PracticeSelectView.h BaseView2D.h FieldView2D.h \
 		PlayerView2D.h BallView2D.h PlayerSelectView2D.h \
 		TitleView2D.h MenuItemView2D.h RCFile.h loadparts.h \
-		LobbyClientView.h LauncherView.h MultiPlayerSelect.h 
+		LobbyClientView.h LauncherView.h MultiPlayerSelect.h AllAround.h 
+
 
 
 #INCLUDES = $(INCLUDES) -I../intl -I$(top_srcdir)/intl
